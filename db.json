@@ -1,16 +1,14 @@
 {
   "todos": [
     {
-      "userId": 1,
-      "id": "1",
-      "title": "delectus aut autem",
-      "completed": false
+      "title": "You changed it",
+      "completed": true,
+      "id": "1"
     },
     {
-      "userId": 1,
-      "id": "2",
-      "title": "quis ut nam facilis et officia qui",
-      "completed": false
+      "title": "You changed it",
+      "completed": true,
+      "id": "2"
     },
     {
       "userId": 1,
@@ -1431,30 +1429,6 @@
         "catchPhrase": "Centralized empowering task-force",
         "bs": "target end-to-end models"
       }
-    },
-    {
-      "username": "Yusuf",
-      "id": "yuXj8FjkXNw"
-    },
-    {
-      "username": "Yusuf",
-      "id": "iwoBO0ClFTc"
-    },
-    {
-      "username": "Yusuf",
-      "id": "M6cf323BtP0"
-    },
-    {
-      "username": "Yusuf",
-      "id": "ZFltVfncZkk"
-    },
-    {
-      "username": "Yusuf",
-      "id": "zQlAab1rUNE"
-    },
-    {
-      "username": "Yusuf",
-      "id": "yAMnvgPQrus"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
