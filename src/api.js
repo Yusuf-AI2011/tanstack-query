@@ -1,4 +1,5 @@
 import axios from "axios";
+import { useEffect, useState, useContext } from "react";
 
 const todos_api = "http://localhost:3000/todos";
 const users_api = "http://localhost:3000/users";
@@ -43,3 +44,12 @@ export const editUsers = async ({ id, ...newUser }) => {
   const response = await axios.put(`${users_api}/${id}`, newUser);
   return response?.data;
 };
+
+console.log("--- useEffect ---");
+console.log(useEffect);
+
+console.log("--- useState ---");
+console.log(useState);
+
+console.log("--- useContext ---");
+console.log(useContext);
